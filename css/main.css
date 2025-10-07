@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+:root {
+  --ff-ss: 'Instrument Sans', sans-serif;
+  --ff-s: 'Inika', serif;
+}
+
+#hero {
+    background-image: url(../images/premium_photo-1672115680958-54438df0ab82.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+h2 {
+    font-family: var(--ff-s);
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 1em;
+}
+
+.container div p {
+    color: white;
+    font-family: var(--ff-ss);
+    text-align: center;
+}
+
+#hero div button {
+    margin-bottom: 5em;
+}
+
+.nav-item {
+    font-family: var(--ff-ss);
+}
